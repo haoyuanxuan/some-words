@@ -32,6 +32,9 @@ body.large{--text-size:21px}
 @media(max-width:540px){:root{--text-size:17px}.paper{margin:0;min-height:100svh;border:0;padding:68px 25px 70px;box-shadow:none}.paper:before{height:3px}.controls{right:19px;top:14px}button{min-height:40px;min-width:58px}.letter-heading{margin-bottom:32px}.letter-heading h1{font-size:27px;letter-spacing:.08em}.letter-heading span{margin-top:19px}.letter{line-height:2.04;letter-spacing:.018em}p{margin-bottom:1.4em}p.opening{margin-bottom:1.7em}body.large{--text-size:20px}.endmark{margin-top:38px}}
 @media(max-width:360px){.paper{padding-left:21px;padding-right:21px}}
 @media print{html,body{background:white}.progress,.controls{display:none}.paper{max-width:none;margin:0;border:0;box-shadow:none;padding:0}.paper:before,.paper:after{display:none}.letter{font-size:12pt;line-height:1.9}p{margin-bottom:1em}p.closing-start{margin-top:1.5em;padding-top:1.5em}}
+
+.visit-count{margin:24px 0 0;text-align:center;font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;font-size:12px;line-height:1.8;letter-spacing:.08em;color:#8d857c;min-height:22px;}
+@media print{.visit-count{display:none}}
 </style>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23fffdf8%22/%3E%3Crect%20x%3D%227%22%20y%3D%226%22%20width%3D%2218%22%20height%3D%2221%22%20rx%3D%222%22%20fill%3D%22none%22%20stroke%3D%22%23aa8475%22%20stroke-width%3D%221.5%22/%3E%3Cpath%20d%3D%22M11%2012h10M11%2017h10M11%2022h6%22%20stroke%3D%22%23aa8475%22%20stroke-width%3D%221.5%22/%3E%3C/svg%3E">
 <meta name="robots" content="noindex, nofollow">
@@ -86,6 +89,9 @@ body.large{--text-size:21px}
 <p class="last-line">好像什么都变了，又好像什么都没变</p>
 </article>
 <div class="endmark" aria-hidden="true"></div>
+<footer class="visit-count" aria-label="访问统计" title="从启用统计后开始计数；重复打开也可能计入。统计服务：不蒜子。">
+<span id="busuanzi_container_page_pv" style="display:none">访问 <span id="busuanzi_value_page_pv"></span> 次</span>
+</footer>
 </main>
 <script>
 (function(){
@@ -105,5 +111,6 @@ body.large{--text-size:21px}
 </script>
 <!-- Embedded font: Noto Serif SC, SIL Open Font License 1.1. (c) 2017-2024 Adobe (http://www.adobe.com/).
 https://openfontlicense.org -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
